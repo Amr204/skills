@@ -1,0 +1,63 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "elements": 12,
+  "active_elements": 12,
+  "types": {
+    "text": 7,
+    "rectangle": 3,
+    "arrow": 2
+  },
+  "files": 0,
+  "bounds": {
+    "min_x": 40,
+    "min_y": 30,
+    "max_x": 980,
+    "max_y": 265,
+    "width": 940,
+    "height": 235
+  },
+  "font_sizes": {
+    "28": 1,
+    "22": 1,
+    "18": 3,
+    "14": 2
+  },
+  "top_stroke_colors": [
+    [
+      "#2563eb",
+      7
+    ],
+    [
+      "#1e1e1e",
+      5
+    ]
+  ],
+  "longest_texts": [
+    [
+      25,
+      "t_1",
+      "Order Processing Overview"
+    ],
+    [
+      13,
+      "t_3",
+      "Order Request"
+    ],
+    [
+      8,
+      "t_9",
+      "approved"
+    ],
+    [
+      8,
+      "t_4",
+      "Validate"
+    ],
+    [
+      7,
+      "t_5",
+      "Fulfill"
+    ]
+  ]
+}

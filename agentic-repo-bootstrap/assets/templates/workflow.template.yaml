@@ -1,0 +1,15 @@
+schema_version: "1.0"
+parent_authority: true
+delegation:
+  minimum_useful_team: true
+  context_isolation: true
+parallelism:
+  read_only_parallel: true
+  write_isolation_required: true
+failure_routing:
+  classify_before_retry: true
+  repeat_strategy_guard: true
+review:
+  independent_for_high_risk: true
+  security_for_critical: true
+  implementer_cannot_self_approve_critical: true

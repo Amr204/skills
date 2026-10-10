@@ -1,0 +1,9 @@
+interface:
+  display_name: "Cashless User Manual"
+  short_description: "Create Arabic RTL system manuals in the locked Vertocore navy/orange style."
+  icon_small: "./assets/icon-small.png"
+  icon_large: "./assets/icon-large.png"
+  brand_color: "#0D274D"
+  default_prompt: "Create an Arabic RTL system user manual from my content and screenshots using the exact Cashless/Vertocore template."
+policy:
+  allow_implicit_invocation: true

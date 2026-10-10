@@ -1,0 +1,53 @@
+schema_version: "1.0"
+defaults:
+  max_parallel_agents: 4
+  max_parallel_writers: 2
+roles:
+  repository-explorer:
+    model: gpt-5.6-terra
+    reasoning_effort: medium
+    sandbox_mode: read-only
+    approval_policy: never
+    permissions: [read_repository, inspect_configuration]
+    concurrency: 4
+    retry_limit: 1
+  architecture-advisor:
+    model: gpt-5.6
+    reasoning_effort: high
+    sandbox_mode: read-only
+    approval_policy: never
+    permissions: [read_repository, inspect_configuration]
+    concurrency: 2
+    retry_limit: 1
+  implementation-worker:
+    model: gpt-5.6
+    reasoning_effort: medium
+    sandbox_mode: workspace-write
+    approval_policy: on-request
+    permissions: [read_repository, write_workspace, run_project_commands]
+    concurrency: 2
+    retry_limit: 2
+  test-verifier:
+    model: gpt-5.6-terra
+    reasoning_effort: medium
+    sandbox_mode: read-only
+    approval_policy: on-request
+    permissions: [read_repository, run_verification_commands]
+    concurrency: 2
+    retry_limit: 1
+  security-reviewer:
+    model: gpt-5.6
+    reasoning_effort: high
+    sandbox_mode: read-only
+    approval_policy: never
+    permissions: [read_repository, inspect_security_boundaries]
+    concurrency: 1
+    retry_limit: 1
+  independent-reviewer:
+    model: gpt-5.6
+    reasoning_effort: high
+    sandbox_mode: read-only
+    approval_policy: never
+    permissions: [read_repository, inspect_diff, inspect_verification_evidence]
+    concurrency: 2
+    retry_limit: 1

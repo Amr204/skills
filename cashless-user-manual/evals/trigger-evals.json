@@ -1,0 +1,22 @@
+[
+  {"query":"أنشئ لي دليل استخدام عربي للنظام بنفس قالب Cashless والألوان الكحلي والبرتقالي.","should_trigger":true},
+  {"query":"حوّل هذه الشاشات إلى user manual RTL مطابق للدليل السابق.","should_trigger":true},
+  {"query":"أحتاج دليل مستخدم لنظام الإدارة مع غلاف وفهرس وصور وخطوات.","should_trigger":true},
+  {"query":"اعمل شرح نظام احترافي PDF بنفس تنسيق Vertocore.","should_trigger":true},
+  {"query":"حدّث دليل المستخدم الحالي وأضف فصل إدارة الصلاحيات بدون تغيير التصميم.","should_trigger":true},
+  {"query":"وثّق خطوات الاعتماد من هذه screenshots وبنفس الهوية البصرية.","should_trigger":true},
+  {"query":"ابني manual عربي A4 من متطلبات النظام وأدرج الجداول والتنبيهات.","should_trigger":true},
+  {"query":"أريد operating guide لموظفي الدعم مطابق حرفياً للقالب المرفق.","should_trigger":true},
+  {"query":"صدّر دليل Cashless الموجود إلى HTML وPDF مع مزامنة الفهرس.","should_trigger":true},
+  {"query":"استخدم القالب الكحلي والبرتقالي السابق لشرح شاشة إدارة العملاء.","should_trigger":true},
+  {"query":"اكتب README لمكتبة Python.","should_trigger":false},
+  {"query":"صمم عرض PowerPoint عن الأمن السيبراني.","should_trigger":false},
+  {"query":"لخص لي هذا الدليل فقط ولا تنشئ ملفاً جديداً.","should_trigger":false},
+  {"query":"حوّل ملف Word إلى PDF دون تغيير التنسيق.","should_trigger":false},
+  {"query":"أنشئ تقرير تدقيق أمني رسمي.","should_trigger":false},
+  {"query":"اكتب runbook لاستجابة الحوادث بتنسيق Markdown عادي.","should_trigger":false},
+  {"query":"ارسم لي واجهة تطبيق جديدة.","should_trigger":false},
+  {"query":"اشرح لي كيف أستخدم FortiGate CLI في المحادثة.","should_trigger":false},
+  {"query":"راجع أخطاء CSS في صفحة ويب.","should_trigger":false},
+  {"query":"استخرج النص من صور الشاشة.","should_trigger":false}
+]

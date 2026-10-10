@@ -1,0 +1,32 @@
+schema_version: "2.0"
+project_shape:
+  mode: repository
+  monorepo: false
+  languages: []
+  frameworks: []
+  package_managers: []
+  manifests: []
+risk_profile:
+  default: medium
+  critical_zones: []
+routing:
+  policy_file: .agentic/routing.yaml
+budgets:
+  policy_file: .agentic/budgets.yaml
+workflow:
+  policy_file: .agentic/workflow.yaml
+commands:
+  policy_file: .agentic/commands.yaml
+evidence:
+  directory: .agentic/evidence
+  schema_version: "1.0"
+security:
+  hooks_enabled: true
+  parallel_write_isolation: worktree
+  allow_danger_full_access: false
+  allow_network_access_for_writers: false
+  allow_external_writable_roots: false
+verification:
+  required: true
+  independent_review_for_high_risk: true
+  security_review_for_critical: true

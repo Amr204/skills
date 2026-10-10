@@ -1,0 +1,18 @@
+interface:
+  display_name: excalidraw master
+  short_description: Design, generate, analyze, repair, and improve Excalidraw diagrams
+    for any idea, project, architecture, network, process, roadmap, workflow, mind
+    map, system design, org chart, concept map, user flow, or technical/business visualization.
+    Use this skill whenever the user asks for an Excalidraw file, a hand-drawn diagram,
+    an editable visual map, converting structured ideas into a diagram, reading or
+    fixing a .excalidraw file, or turning complex information into a clear editable
+    canvas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

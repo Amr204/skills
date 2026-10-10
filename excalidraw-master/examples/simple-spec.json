@@ -1,0 +1,14 @@
+{
+  "title": "Order Processing Overview",
+  "sections": [
+    {"title": "Flow", "nodes": [
+      {"id": "request", "label": "Order Request"},
+      {"id": "validate", "label": "Validate"},
+      {"id": "fulfill", "label": "Fulfill"}
+    ]}
+  ],
+  "edges": [
+    {"from": "request", "to": "validate", "label": "submit"},
+    {"from": "validate", "to": "fulfill", "label": "approved"}
+  ]
+}

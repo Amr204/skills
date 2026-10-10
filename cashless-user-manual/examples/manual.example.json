@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "lang": "ar",
+    "dir": "rtl",
+    "html_title": "نظام Cashless — دليل استخدام تجريبي",
+    "brand_prefix": "Verto",
+    "brand_highlight": "core",
+    "logo": "assets/brand-logo.png",
+    "logo_alt": "Vertocore",
+    "eyebrow": "USER MANUAL",
+    "title": "Cashless System",
+    "subtitle": "دليل استخدام إدارة الممثلين",
+    "derived": "دليل تشغيلي مخصص لموظفي الإدارة والدعم.",
+    "prepared_label": "PREPARED FOR",
+    "prepared_for": "Operations Team",
+    "edition_label": "EDITION",
+    "edition": "First Edition — 2026",
+    "toc_title": "الفهرس",
+    "toc_subtitle": "محتويات دليل الاستخدام"
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": "CHAPTER 01",
+      "title": "مقدمة سريعة",
+      "intro": "يشرح هذا الفصل الهدف من النظام وطريقة الوصول إلى الواجهة الرئيسية.",
+      "toc_page": "3",
+      "sections": [
+        {
+          "id": "ch1-1",
+          "level": 2,
+          "title": "1.1 نظرة عامة",
+          "toc_page": "3",
+          "blocks": [
+            {
+              "type": "p",
+              "text_html": "يتيح النظام إدارة الممثلين ومراجعة بياناتهم من واجهة موحدة. استخدم الحقول المميزة بعلامة <strong>إلزامي</strong> قبل الحفظ."
+            },
+            {
+              "type": "callout",
+              "variant": "important",
+              "icon": "!",
+              "label": "مهم",
+              "paragraphs": [
+                "لا تعتمد أي سجل قبل التحقق من البيانات والوثائق."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-2",
+          "level": 2,
+          "title": "1.2 الوصول إلى الصفحة",
+          "toc_page": "3",
+          "blocks": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": "تسجيل الدخول",
+                  "body": "أدخل اسم المستخدم وكلمة المرور الخاصة بحساب الإدارة."
+                },
+                {
+                  "title": "فتح القائمة",
+                  "body": "من القائمة الجانبية اختر إدارة الممثلين."
+                },
+                {
+                  "title": "التحقق من الصفحة",
+                  "body": "تأكد من ظهور جدول الممثلين وأدوات البحث."
+                }
+              ]
+            },
+            {
+              "type": "screenshot",
+              "src": "screenshots/actors-page.png",
+              "alt": "صفحة الممثلين",
+              "number": "شكل 1",
+              "caption": "صفحة الممثلين — تعرض أدوات البحث وجدول السجلات والإجراءات المتاحة."
+            },
+            {
+              "type": "table",
+              "caption": "الجدول 1: الحقول الأساسية",
+              "headers": ["الحقل", "الوصف", "إلزامي"],
+              "rows": [
+                ["المعرف العام", "معرف فريد للممثل.", {"html": "<span class=\"req-yes\">نعم</span>"}],
+                ["اسم العرض", "الاسم الظاهر في النظام.", {"html": "<span class=\"req-no\">لا</span>"}]
+              ]
+            },
+            {
+              "type": "workflow",
+              "steps": [
+                "فتح الصفحة",
+                {"text": "مراجعة البيانات", "active": true},
+                "حفظ التغييرات"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

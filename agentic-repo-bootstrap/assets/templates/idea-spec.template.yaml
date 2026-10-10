@@ -1,0 +1,32 @@
+schema_version: "1.0"
+idea: "Describe the project idea in concrete terms."
+requirements:
+  - "Primary user-visible requirement"
+assumptions:
+  - "Explicit assumption that still needs confirmation"
+nfrs:
+  - "Security, reliability, performance, scale, operability, or cost requirement"
+architecture:
+  style: "proposed architecture style"
+  components: []
+  tradeoffs: []
+threat_model:
+  assets: []
+  trust_boundaries: []
+  threats: []
+  mitigations: []
+stack:
+  frontend: null
+  backend: null
+  data: null
+  infrastructure: null
+tooling:
+  test: null
+  lint: null
+  typecheck: null
+  build: null
+cicd:
+  provider: null
+  required_checks: []
+implementation_plan:
+  - "Create the smallest end-to-end vertical slice"

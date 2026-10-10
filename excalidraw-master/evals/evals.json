@@ -1,0 +1,8 @@
+{
+  "skill_name": "excalidraw-master",
+  "evals": [
+    {"id":1,"prompt":"Create an editable Excalidraw architecture diagram for a web app with browser, API, database, cache, and external payment provider.","expected_output":"Valid .excalidraw with clear system boundaries, labeled directional relationships, visual hierarchy, and no dangling references.","files":[]},
+    {"id":2,"prompt":"Turn a 12-step onboarding process across Sales, Operations, and Finance into an Excalidraw swimlane diagram.","expected_output":"Valid editable swimlane diagram with actor lanes, ordered handoffs, decision points, and readable labels.","files":[]},
+    {"id":3,"prompt":"Analyze and improve the attached network.excalidraw without losing its content or visual language.","expected_output":"Preserved source semantics and assets, structural analysis first, surgical layout/style improvements, and validation of references.","files":["examples/reference-network.excalidraw"]}
+  ]
+}
