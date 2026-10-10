@@ -12,7 +12,7 @@ Find the strongest and most relevant **locally installed skills** for the user's
 Default:
 
 ```text
-My Drive\MASAR\skills
+Amr204\skills
 ```
 
 If the user provides another local skills path, use that instead.
